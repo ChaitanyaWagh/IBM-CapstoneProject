@@ -1,0 +1,92 @@
+Q.1. Clearly define a problem or an idea of your choice, where you would need to leverage the Foursquare location data to solve 
+or execute. Remember that data science problems always target an audience and are meant to help a group of stakeholders solve a
+problem, so make sure that you explicitly describe your audience and why they would care about your problem.
+
+This submission will eventually become your Introduction/Business Problem section in your final report. So I recommend that 
+you push the report (having your Introduction/Business Problem section only for now) to your Github repository and submit a link to it.
+
+ANSWER:
+
+Submission
+
+Clearly define a problem or an idea of your choice,
+where you would need to leverage the Foursquare
+location data to solve or execute. Remember that data
+science problems always target an audience and are
+meant to help a group of stakeholders solve a problem,
+so make sure that you explicitly describe your audience
+and why they would care about your problem.
+
+This submission will eventually become your Introduc
+tion/Business Problem section in your final report. So
+I recommend that you push the report (having your
+Introduction/Business Problem section only for now) to
+your Github repository and submit a link to it.
+
+Response
+In this capstone project, I'd like to analyze the
+differences between New York city, Toronto and Tokyo,
+with regards to venues information obtained from
+Foursquare. I hope to observe how similar/dissimilar
+these cities are and also where either two are similar
+than the other two and think of why. Optionally, I may
+identify what venues are missing compared to the
+others to seek the "blue ocean venues area" in a city.
+
+
+Q.2. Describe the data that you will be using to solve the problem or execute your idea. Remember that you will need to use the 
+Foursquare location data to solve the problem or execute your idea. You can absolutely use other datasets in combination with the 
+Foursquare location data. So make sure that you provide adequate explanation and discussion, with examples, of the data that you 
+will be using, even if it is only Foursquare location data.
+
+This submission will eventually become your Data section in your final report. So I recommend that you push the report 
+(having your Data section) to your Github repository and submit a link to it.
+
+ANSWER:
+
+Submission
+
+Describe the data that you will be using to solve the
+problem or execute your idea. Remember that you will
+need to use the Foursquare location data to solve the
+problem or execute your idea. You can absolutely use
+other datasets in combination with the Foursquare
+location data. So make sure that you provide adequate
+explanation and discussion, with examples of the data
+that you will be using, even if it is only Foursquare
+location data.
+
+This submission will eventually become your Data
+section in your final report. So I recommend that you
+push the report (having your Data section) to your
+Github repository and submit a link to it.
+
+Response
+I will be use venues data from Foursquare, as in the
+labs. Will use the venues data from the 3 cities, merge
+and group them by venue frequencies. Geocode
+(location data) from geocoder python library, and
+maybe geopy as well.
+The zip codes of Tokyo can be obtained here (yet to ex
+periment, but looks valid) - https://www.post.japanpost
+jp/zipcode/dl/roman/ken_all rome.zip?190712.
+
+For the comparison, I will make a K-means clustering
+for the merged data, and analyze the number of venues
+in each cluster per each city. For example, if the
+number of venues in a certain cluster is close (say 5
+for New York, and 4 for Toronto, where 1 for Tokyo)
+for two cities, this can be sign of a similarity between
+the two. I'll look at all the clusters in the same manner
+and calculate the difference in number of venues for all
+clusters and define it as the similarity score between
+the cities.
+
+Optionally, will analyze what the actual differences
+(top 5-10) and seek what is missing or what is the
+possible opportunity of venues that can be developed
+to become more similar to the other cities (without
+bias on which city is better and set as ideal).
+
+
+
